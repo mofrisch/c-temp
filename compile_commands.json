@@ -1,22 +1,22 @@
 [
 {
   "directory": "/home/mo/development/c/c-temp/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10   -g -std=c++11 -o CMakeFiles/bench.dir/bench/main.cpp.o -c /home/mo/development/c/c-temp/bench/main.cpp",
+  "command": "/bin/clang++-12   -g -std=c++11 -o CMakeFiles/bench.dir/bench/main.cpp.o -c /home/mo/development/c/c-temp/bench/main.cpp",
   "file": "/home/mo/development/c/c-temp/bench/main.cpp"
 },
 {
   "directory": "/home/mo/development/c/c-temp/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10   -g -std=c++11 -o CMakeFiles/tests.dir/src/sample1.cc.o -c /home/mo/development/c/c-temp/src/sample1.cc",
+  "command": "/bin/clang++-12   -g -std=c++11 -o CMakeFiles/tests.dir/src/sample1.cc.o -c /home/mo/development/c/c-temp/src/sample1.cc",
   "file": "/home/mo/development/c/c-temp/src/sample1.cc"
 },
 {
   "directory": "/home/mo/development/c/c-temp/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10   -g -std=c++11 -o CMakeFiles/tests.dir/tests/test.cpp.o -c /home/mo/development/c/c-temp/tests/test.cpp",
+  "command": "/bin/clang++-12   -g -std=c++11 -o CMakeFiles/tests.dir/tests/test.cpp.o -c /home/mo/development/c/c-temp/tests/test.cpp",
   "file": "/home/mo/development/c/c-temp/tests/test.cpp"
 },
 {
   "directory": "/home/mo/development/c/c-temp/build",
-  "command": "/bin/x86_64-linux-gnu-gcc-10   -g -std=c17 -Wall -Wextra -pedantic -Werror -o CMakeFiles/c-temp.dir/main.c.o -c /home/mo/development/c/c-temp/main.c",
+  "command": "/bin/clang-12   -g -Wall -Wextra -pedantic -Werror -std=c11 -o CMakeFiles/c-temp.dir/main.c.o -c /home/mo/development/c/c-temp/main.c",
   "file": "/home/mo/development/c/c-temp/main.c"
 }
 ]

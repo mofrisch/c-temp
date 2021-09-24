@@ -4,7 +4,12 @@ cmake_minimum_required(VERSION 3.21)
 get_filename_component(my_project ${CMAKE_CURRENT_SOURCE_DIR} NAME)
 project(${my_project})
 add_executable(${my_project} main.c)
-target_compile_options(${my_project} PRIVATE -std=c17 -Wall -Wextra -pedantic -Werror)
+target_compile_options(${my_project} PRIVATE -Wall -Wextra -pedantic -Werror)
+set_target_properties(${my_project} PROPERTIES
+    C_STANDARD 11
+    C_STANDARD_REQUIRED ON
+    C_EXTENSIONS OFF
+)
 
 # CTest and Google Test
 include(CTest)
